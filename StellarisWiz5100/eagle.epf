@@ -340,6 +340,7 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/zetex.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/zilog.lbr"
+UsedLibrary="C:/home/electro/projects/libraries/lieven.lbr"
 UsedLibrary="C:/Users/lieven2/Google Drive/2012/electro/projects/libraries/StellarisLaunchPad_Fred.lbr"
 UsedLibrary="C:/Users/lieven2/Google Drive/2012/electro/projects/libraries/WIZNET.lbr"
 UsedLibrary="C:/Users/lieven2/Google Drive/2012/electro/projects/libraries/con-usb-3.lbr"
@@ -350,8 +351,8 @@ UsedLibrary="C:/Users/lieven2/Google Drive/2012/electro/projects/libraries/nxp_p
 
 [Win_1]
 Type="Control Panel"
-Loc="416 237 1015 636"
-State=2
+Loc="279 290 878 689"
+State=1
 Number=0
 
 [Desktop]

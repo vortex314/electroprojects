@@ -7025,17 +7025,17 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="WIZNET" deviceset="WIZ810MJ" device=""/>
 <part name="U$1" library="lieven" deviceset="STELLARIS-LAUNCHPAD" device="STELLARIS-LAUNCHPAD-XL"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="0207/7"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="U$3" library="lieven" deviceset="TJA1040" device=""/>
 <part name="X1" library="lieven" deviceset="USB" device="-A-H"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0207/7" value="60"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="0207/7" value="60"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="025-040X050"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="025-040X050" value="47n"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="X2" library="lieven" deviceset="USB" device="-B-H"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="0207/7" value="60"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="0207/7" value="1k"/>
 </parts>
 <sheets>
 <sheet>

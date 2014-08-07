@@ -153,67 +153,23 @@
 <text x="2.54" y="-2.54" size="1.27" layer="25">MRF24J40MA</text>
 <text x="2.032" y="13.97" size="1.27" layer="25">1</text>
 </package>
-<package name="MIKROBUS">
-<pad name="GND" x="0" y="0" drill="0.8" shape="square"/>
-<pad name="+3.3V" x="0" y="2.54" drill="0.8" shape="square"/>
-<pad name="MOSI" x="0" y="5.08" drill="0.8" shape="square"/>
-<pad name="MISO" x="0" y="7.62" drill="0.8" shape="square"/>
-<pad name="SCK" x="0" y="10.16" drill="0.8" shape="square"/>
-<pad name="CS" x="0" y="12.7" drill="0.8" shape="square"/>
-<pad name="RST" x="0" y="15.24" drill="0.8" shape="square"/>
-<pad name="AN" x="0" y="17.78" drill="0.8" shape="square"/>
-<pad name="PWM" x="22.86" y="17.78" drill="0.8" shape="square"/>
-<pad name="INT" x="22.86" y="15.24" drill="0.8" shape="square"/>
-<pad name="RX" x="22.86" y="12.7" drill="0.8" shape="square"/>
-<pad name="TX" x="22.86" y="10.16" drill="0.8" shape="square"/>
-<pad name="SCL" x="22.86" y="7.62" drill="0.8" shape="square"/>
-<pad name="SDA" x="22.86" y="5.08" drill="0.8" shape="square"/>
-<pad name="+5V" x="22.86" y="2.54" drill="0.8" shape="square"/>
-<pad name="GND2" x="22.86" y="0" drill="0.8" shape="square"/>
-</package>
-<package name="MIKROBUS_SIL">
-<pad name="GND" x="0" y="0" drill="0.8" shape="long"/>
-<pad name="+3.3V" x="0" y="2.54" drill="0.8" shape="long"/>
-<pad name="MOSI" x="0" y="5.08" drill="0.8" shape="long"/>
-<pad name="MISO" x="0" y="7.62" drill="0.8" shape="long"/>
-<pad name="SCK" x="0" y="10.16" drill="0.8" shape="long"/>
-<pad name="CS" x="0" y="12.7" drill="0.8" shape="long"/>
-<pad name="RST" x="0" y="15.24" drill="0.8" shape="long"/>
-<pad name="AN" x="0" y="17.78" drill="0.8" shape="long"/>
-<pad name="PWM" x="0" y="-20.32" drill="0.8" shape="long"/>
-<pad name="INT" x="0" y="-17.78" drill="0.8" shape="long"/>
-<pad name="RX" x="0" y="-15.24" drill="0.8" shape="long"/>
-<pad name="TX" x="0" y="-12.7" drill="0.8" shape="long"/>
-<pad name="SCL" x="0" y="-10.16" drill="0.8" shape="long"/>
-<pad name="SDA" x="0" y="-7.62" drill="0.8" shape="long"/>
-<pad name="+5V" x="0" y="-5.08" drill="0.8" shape="long"/>
-<pad name="GND2" x="0" y="-2.54" drill="0.8" shape="long"/>
-<text x="2.54" y="17.78" size="1.27" layer="20">AN</text>
-<text x="2.54" y="-21.59" size="1.27" layer="20">PWM</text>
-<wire x1="-2.54" y1="19.05" x2="2.54" y2="19.05" width="0.127" layer="20"/>
-<wire x1="2.54" y1="19.05" x2="2.54" y2="-21.59" width="0.127" layer="20"/>
-<wire x1="2.54" y1="-21.59" x2="-2.54" y2="-21.59" width="0.127" layer="20"/>
-<wire x1="-2.54" y1="-21.59" x2="-2.54" y2="19.05" width="0.127" layer="20"/>
-<text x="-12.7" y="1.27" size="1.27" layer="20">MASTER</text>
-<text x="5.08" y="1.27" size="1.27" layer="20">SLAVE</text>
-</package>
-<package name="MIKROBUS_DIL">
-<pad name="GND" x="0" y="0" drill="0.8" shape="square"/>
-<pad name="+3.3V" x="0" y="2.54" drill="0.8" shape="square"/>
-<pad name="MOSI" x="0" y="5.08" drill="0.8" shape="square"/>
-<pad name="MISO" x="0" y="7.62" drill="0.8" shape="square"/>
-<pad name="SCK" x="0" y="10.16" drill="0.8" shape="square"/>
-<pad name="CS" x="0" y="12.7" drill="0.8" shape="square"/>
-<pad name="RST" x="0" y="15.24" drill="0.8" shape="square"/>
-<pad name="AN" x="0" y="17.78" drill="0.8" shape="square"/>
-<pad name="PWM" x="2.54" y="17.78" drill="0.8" shape="square"/>
-<pad name="INT" x="2.54" y="15.24" drill="0.8" shape="square"/>
-<pad name="RX" x="2.54" y="12.7" drill="0.8" shape="square"/>
-<pad name="TX" x="2.54" y="10.16" drill="0.8" shape="square"/>
-<pad name="SCL" x="2.54" y="7.62" drill="0.8" shape="square"/>
-<pad name="SDA" x="2.54" y="5.08" drill="0.8" shape="square"/>
-<pad name="+5V" x="2.54" y="2.54" drill="0.8" shape="square"/>
-<pad name="GND2" x="2.54" y="0" drill="0.8" shape="square"/>
+<package name="SPI_BUS">
+<pad name="GND" x="0" y="0" drill="0.7" shape="long"/>
+<pad name="+3V3" x="0" y="2.54" drill="0.7" shape="long"/>
+<pad name="MOSI" x="0" y="7.62" drill="0.7" shape="long"/>
+<pad name="MISO" x="0" y="10.16" drill="0.7" shape="long"/>
+<pad name="SCK" x="0" y="12.7" drill="0.7" shape="long"/>
+<pad name="CS" x="0" y="15.24" drill="0.7" shape="long"/>
+<pad name="INT" x="0" y="17.78" drill="0.7" shape="long"/>
+<pad name="RST" x="0" y="20.32" drill="0.7" shape="long"/>
+<pad name="GPIO" x="0" y="22.86" drill="0.7" shape="long"/>
+<pad name="+5V" x="0" y="5.08" drill="0.7" shape="long"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="24.13" width="0.127" layer="21"/>
+<wire x1="1.27" y1="24.13" x2="-1.27" y2="24.13" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="24.13" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<text x="2.54" y="10.16" size="0.4064" layer="21">MASTER</text>
+<text x="-3.81" y="10.16" size="0.4064" layer="21">SLAVE</text>
 </package>
 </packages>
 <symbols>
@@ -273,91 +229,32 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIKROBUS" uservalue="yes">
+<deviceset name="SPI_BUS">
 <gates>
-<gate name="PWM" symbol="M" x="5.08" y="17.78"/>
-<gate name="INT" symbol="M" x="5.08" y="12.7"/>
-<gate name="RX" symbol="M" x="5.08" y="7.62"/>
-<gate name="TX" symbol="M" x="5.08" y="2.54"/>
-<gate name="SCL" symbol="M" x="5.08" y="-2.54"/>
-<gate name="SDA" symbol="M" x="5.08" y="-7.62"/>
-<gate name="+5V" symbol="M" x="5.08" y="-12.7"/>
-<gate name="GND2" symbol="M" x="5.08" y="-17.78"/>
-<gate name="AN" symbol="M" x="-27.94" y="17.78"/>
-<gate name="RST" symbol="M" x="-27.94" y="12.7"/>
-<gate name="CS" symbol="M" x="-27.94" y="7.62"/>
-<gate name="SCK" symbol="M" x="-27.94" y="2.54"/>
-<gate name="MISO" symbol="M" x="-27.94" y="-2.54"/>
-<gate name="MOSI" symbol="M" x="-27.94" y="-7.62"/>
-<gate name="+3.3V" symbol="M" x="-27.94" y="-12.7"/>
-<gate name="GND" symbol="M" x="-27.94" y="-17.78"/>
+<gate name="GND" symbol="M" x="-12.7" y="33.02"/>
+<gate name="+3V3" symbol="M" x="-12.7" y="27.94"/>
+<gate name="+5V" symbol="M" x="-12.7" y="22.86"/>
+<gate name="MOSI" symbol="M" x="-12.7" y="17.78"/>
+<gate name="MISO" symbol="M" x="-12.7" y="12.7"/>
+<gate name="SCK" symbol="M" x="-12.7" y="7.62"/>
+<gate name="CS" symbol="M" x="-12.7" y="2.54"/>
+<gate name="INT" symbol="M" x="-12.7" y="-2.54"/>
+<gate name="RST" symbol="M" x="-12.7" y="-7.62"/>
+<gate name="GPIO" symbol="M" x="-12.7" y="-12.7"/>
 </gates>
 <devices>
-<device name="900MIL" package="MIKROBUS">
+<device name="" package="SPI_BUS">
 <connects>
-<connect gate="+3.3V" pin="S" pad="+3.3V"/>
+<connect gate="+3V3" pin="S" pad="+3V3"/>
 <connect gate="+5V" pin="S" pad="+5V"/>
-<connect gate="AN" pin="S" pad="AN"/>
 <connect gate="CS" pin="S" pad="CS"/>
 <connect gate="GND" pin="S" pad="GND"/>
-<connect gate="GND2" pin="S" pad="GND2"/>
+<connect gate="GPIO" pin="S" pad="GPIO"/>
 <connect gate="INT" pin="S" pad="INT"/>
 <connect gate="MISO" pin="S" pad="MISO"/>
 <connect gate="MOSI" pin="S" pad="MOSI"/>
-<connect gate="PWM" pin="S" pad="PWM"/>
 <connect gate="RST" pin="S" pad="RST"/>
-<connect gate="RX" pin="S" pad="RX"/>
 <connect gate="SCK" pin="S" pad="SCK"/>
-<connect gate="SCL" pin="S" pad="SCL"/>
-<connect gate="SDA" pin="S" pad="SDA"/>
-<connect gate="TX" pin="S" pad="TX"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIL" package="MIKROBUS_SIL">
-<connects>
-<connect gate="+3.3V" pin="S" pad="+3.3V"/>
-<connect gate="+5V" pin="S" pad="+5V"/>
-<connect gate="AN" pin="S" pad="AN"/>
-<connect gate="CS" pin="S" pad="CS"/>
-<connect gate="GND" pin="S" pad="GND"/>
-<connect gate="GND2" pin="S" pad="GND2"/>
-<connect gate="INT" pin="S" pad="INT"/>
-<connect gate="MISO" pin="S" pad="MISO"/>
-<connect gate="MOSI" pin="S" pad="MOSI"/>
-<connect gate="PWM" pin="S" pad="PWM"/>
-<connect gate="RST" pin="S" pad="RST"/>
-<connect gate="RX" pin="S" pad="RX"/>
-<connect gate="SCK" pin="S" pad="SCK"/>
-<connect gate="SCL" pin="S" pad="SCL"/>
-<connect gate="SDA" pin="S" pad="SDA"/>
-<connect gate="TX" pin="S" pad="TX"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="SIL"/>
-</technologies>
-</device>
-<device name="DIL" package="MIKROBUS_DIL">
-<connects>
-<connect gate="+3.3V" pin="S" pad="+3.3V"/>
-<connect gate="+5V" pin="S" pad="+5V"/>
-<connect gate="AN" pin="S" pad="AN"/>
-<connect gate="CS" pin="S" pad="CS"/>
-<connect gate="GND" pin="S" pad="GND"/>
-<connect gate="GND2" pin="S" pad="GND2"/>
-<connect gate="INT" pin="S" pad="INT"/>
-<connect gate="MISO" pin="S" pad="MISO"/>
-<connect gate="MOSI" pin="S" pad="MOSI"/>
-<connect gate="PWM" pin="S" pad="PWM"/>
-<connect gate="RST" pin="S" pad="RST"/>
-<connect gate="RX" pin="S" pad="RX"/>
-<connect gate="SCK" pin="S" pad="SCK"/>
-<connect gate="SCL" pin="S" pad="SCL"/>
-<connect gate="SDA" pin="S" pad="SDA"/>
-<connect gate="TX" pin="S" pad="TX"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -378,7 +275,7 @@
 </classes>
 <parts>
 <part name="U$1" library="lieven" deviceset="MRF24J40MA" device=""/>
-<part name="U$2" library="lieven" deviceset="MIKROBUS" device="SIL"/>
+<part name="U$3" library="lieven" deviceset="SPI_BUS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -386,80 +283,80 @@
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="76.2" y="53.34"/>
-<instance part="U$2" gate="PWM" x="-5.08" y="73.66"/>
-<instance part="U$2" gate="INT" x="48.26" y="43.18" rot="R180"/>
-<instance part="U$2" gate="RX" x="2.54" y="63.5" rot="R180"/>
-<instance part="U$2" gate="TX" x="2.54" y="58.42" rot="R180"/>
-<instance part="U$2" gate="SCL" x="2.54" y="53.34" rot="R180"/>
-<instance part="U$2" gate="SDA" x="2.54" y="48.26" rot="R180"/>
-<instance part="U$2" gate="+5V" x="2.54" y="43.18" rot="R180"/>
-<instance part="U$2" gate="GND2" x="48.26" y="58.42" rot="R180"/>
-<instance part="U$2" gate="AN" x="2.54" y="38.1" rot="R180"/>
-<instance part="U$2" gate="RST" x="48.26" y="53.34" rot="R180"/>
-<instance part="U$2" gate="CS" x="88.9" y="38.1"/>
-<instance part="U$2" gate="SCK" x="48.26" y="33.02" rot="R180"/>
-<instance part="U$2" gate="MISO" x="88.9" y="33.02"/>
-<instance part="U$2" gate="MOSI" x="48.26" y="38.1" rot="R180"/>
-<instance part="U$2" gate="+3.3V" x="88.9" y="48.26"/>
-<instance part="U$2" gate="GND" x="88.9" y="53.34"/>
+<instance part="U$3" gate="GND" x="48.26" y="58.42" rot="R180"/>
+<instance part="U$3" gate="+3V3" x="88.9" y="48.26"/>
+<instance part="U$3" gate="+5V" x="93.98" y="73.66"/>
+<instance part="U$3" gate="MOSI" x="48.26" y="38.1" rot="R180"/>
+<instance part="U$3" gate="MISO" x="88.9" y="33.02"/>
+<instance part="U$3" gate="SCK" x="48.26" y="33.02" rot="R180"/>
+<instance part="U$3" gate="CS" x="88.9" y="38.1"/>
+<instance part="U$3" gate="INT" x="48.26" y="43.18" rot="R180"/>
+<instance part="U$3" gate="RST" x="48.26" y="53.34" rot="R180"/>
+<instance part="U$3" gate="GPIO" x="48.26" y="48.26" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="INT"/>
-<pinref part="U$2" gate="INT" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U$3" gate="GND" pin="S"/>
+<wire x1="50.8" y1="58.42" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="68.58" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="68.58" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND2"/>
+<wire x1="93.98" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND1"/>
+<wire x1="86.36" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="53.34" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<pinref part="U$2" gate="GND2" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
+<pinref part="U$3" gate="+3V3" pin="S"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="RESET(LOW)"/>
-<pinref part="U$2" gate="RST" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="SDI"/>
+<pinref part="U$3" gate="MOSI" pin="S"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="CS(LOW)"/>
-<pinref part="U$2" gate="CS" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="SDO"/>
+<pinref part="U$3" gate="MISO" pin="S"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SCK"/>
-<pinref part="U$2" gate="SCK" pin="S"/>
+<pinref part="U$3" gate="SCK" pin="S"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SDO"/>
-<pinref part="U$2" gate="MISO" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="CS(LOW)"/>
+<pinref part="U$3" gate="CS" pin="S"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SDI"/>
-<pinref part="U$2" gate="MOSI" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="INT"/>
+<pinref part="U$3" gate="INT" pin="S"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
-<pinref part="U$2" gate="+3.3V" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="RESET(LOW)"/>
+<pinref part="U$3" gate="RST" pin="S"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND1"/>
-<pinref part="U$2" gate="GND" pin="S"/>
-<pinref part="U$1" gate="G$1" pin="GND2"/>
-<wire x1="86.36" y1="58.42" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="WAKE"/>
+<pinref part="U$3" gate="GPIO" pin="S"/>
 </segment>
 </net>
 </nets>

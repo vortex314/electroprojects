@@ -50,6 +50,8 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -80,6 +82,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
@@ -142,32 +145,51 @@
 <pad name="SDA" x="22.86" y="5.08" drill="0.8" shape="square"/>
 <pad name="+5V" x="22.86" y="2.54" drill="0.8" shape="square"/>
 <pad name="GND2" x="22.86" y="0" drill="0.8" shape="square"/>
+<wire x1="24.13" y1="-1.27" x2="22.86" y2="-2.54" width="0.127" layer="21"/>
 </package>
 <package name="MIKROBUS_SIL">
-<pad name="GND" x="0" y="0" drill="0.8" shape="long"/>
-<pad name="+3.3V" x="0" y="2.54" drill="0.8" shape="long"/>
-<pad name="MOSI" x="0" y="5.08" drill="0.8" shape="long"/>
-<pad name="MISO" x="0" y="7.62" drill="0.8" shape="long"/>
-<pad name="SCK" x="0" y="10.16" drill="0.8" shape="long"/>
-<pad name="CS" x="0" y="12.7" drill="0.8" shape="long"/>
-<pad name="RST" x="0" y="15.24" drill="0.8" shape="long"/>
-<pad name="AN" x="0" y="17.78" drill="0.8" shape="long"/>
-<pad name="PWM" x="0" y="-20.32" drill="0.8" shape="long"/>
-<pad name="INT" x="0" y="-17.78" drill="0.8" shape="long"/>
-<pad name="RX" x="0" y="-15.24" drill="0.8" shape="long"/>
-<pad name="TX" x="0" y="-12.7" drill="0.8" shape="long"/>
-<pad name="SCL" x="0" y="-10.16" drill="0.8" shape="long"/>
-<pad name="SDA" x="0" y="-7.62" drill="0.8" shape="long"/>
-<pad name="+5V" x="0" y="-5.08" drill="0.8" shape="long"/>
-<pad name="GND2" x="0" y="-2.54" drill="0.8" shape="long"/>
-<text x="2.54" y="17.78" size="1.27" layer="20">AN</text>
-<text x="2.54" y="-21.59" size="1.27" layer="20">PWM</text>
+<pad name="GND" x="0" y="17.78" drill="0.8" shape="long"/>
+<pad name="+3.3V" x="0" y="15.24" drill="0.8" shape="long"/>
+<pad name="MOSI" x="0" y="12.7" drill="0.8" shape="long"/>
+<pad name="MISO" x="0" y="10.16" drill="0.8" shape="long"/>
+<pad name="SCK" x="0" y="7.62" drill="0.8" shape="long"/>
+<pad name="CS" x="0" y="5.08" drill="0.8" shape="long"/>
+<pad name="RST" x="0" y="2.54" drill="0.8" shape="long"/>
+<pad name="AN" x="0" y="0" drill="0.8" shape="long"/>
+<pad name="PWM" x="0" y="-2.54" drill="0.8" shape="long"/>
+<pad name="INT" x="0" y="-5.08" drill="0.8" shape="long"/>
+<pad name="RX" x="0" y="-7.62" drill="0.8" shape="long"/>
+<pad name="TX" x="0" y="-10.16" drill="0.8" shape="long"/>
+<pad name="SCL" x="0" y="-12.7" drill="0.8" shape="long"/>
+<pad name="SDA" x="0" y="-15.24" drill="0.8" shape="long"/>
+<pad name="+5V" x="0" y="-17.78" drill="0.8" shape="long"/>
+<pad name="GND2" x="0" y="-20.32" drill="0.8" shape="long"/>
 <wire x1="-2.54" y1="19.05" x2="2.54" y2="19.05" width="0.127" layer="20"/>
 <wire x1="2.54" y1="19.05" x2="2.54" y2="-21.59" width="0.127" layer="20"/>
 <wire x1="2.54" y1="-21.59" x2="-2.54" y2="-21.59" width="0.127" layer="20"/>
 <wire x1="-2.54" y1="-21.59" x2="-2.54" y2="19.05" width="0.127" layer="20"/>
-<text x="-12.7" y="1.27" size="1.27" layer="20">MASTER</text>
-<text x="5.08" y="1.27" size="1.27" layer="20">SLAVE</text>
+<text x="-12.7" y="-2.54" size="1.27" layer="20">MASTER</text>
+<text x="8.89" y="-2.54" size="1.27" layer="20">SLAVE</text>
+<pad name="P$3" x="-1.27" y="20.32" drill="0.8" diameter="2.54" shape="square"/>
+<pad name="P$4" x="-1.27" y="-22.86" drill="0.8" diameter="2.54" shape="square"/>
+<pad name="P$1" x="1.27" y="-22.86" drill="0.8" diameter="2.54" shape="square"/>
+<pad name="P$2" x="1.27" y="20.32" drill="0.8" diameter="2.54" shape="square"/>
+<text x="3.81" y="2.54" size="0.8128" layer="25">RST</text>
+<text x="3.81" y="0" size="0.8128" layer="25">AN</text>
+<text x="3.81" y="-2.54" size="0.8128" layer="25">PWM</text>
+<text x="3.81" y="-5.08" size="0.8128" layer="25">INT</text>
+<text x="3.81" y="-7.62" size="0.8128" layer="25">RX</text>
+<text x="3.81" y="-10.16" size="0.8128" layer="25">TX</text>
+<text x="3.81" y="-12.7" size="0.8128" layer="25">SCL</text>
+<text x="3.81" y="-15.24" size="0.8128" layer="25">SDA</text>
+<text x="3.81" y="-17.78" size="0.8128" layer="25">+5V</text>
+<text x="3.81" y="-20.32" size="0.8128" layer="25">GND</text>
+<text x="3.81" y="5.08" size="0.8128" layer="25">CS</text>
+<text x="3.81" y="7.62" size="0.8128" layer="25">SCK</text>
+<text x="3.81" y="10.16" size="0.8128" layer="25">MISO</text>
+<text x="3.81" y="12.7" size="0.8128" layer="25">MOSI</text>
+<text x="3.81" y="15.24" size="0.8128" layer="25">+3V3</text>
+<text x="3.81" y="17.78" size="0.8128" layer="25">GMD</text>
 </package>
 <package name="MIKROBUS_DIL">
 <pad name="GND" x="0" y="0" drill="0.8" shape="square"/>
@@ -313,8 +335,6 @@
 </classes>
 <parts>
 <part name="U$1" library="lieven" deviceset="MIKROBUS" device="900MIL"/>
-<part name="U$3" library="lieven" deviceset="MIKROBUS_SIL2" device=""/>
-<part name="U$4" library="lieven" deviceset="MIKROBUS_SIL2" device=""/>
 <part name="U$5" library="lieven" deviceset="MIKROBUS" device="SIL"/>
 </parts>
 <sheets>
